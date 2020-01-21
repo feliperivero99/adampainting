@@ -1833,10 +1833,11 @@ nav#filter a {
 
 .testimonial h5 {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   font-family: Georgia, sans-serif;
   line-height: 1.5em;
   text-shadow: black -1px 0px, black 0px 1px, black 1px 0px, black 0px -1px;
+  background: rgba(255,255,255,0.4);
   
 }
 
