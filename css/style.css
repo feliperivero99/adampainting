@@ -599,7 +599,7 @@ section.section {
     background-position: 50% 50%;
     background-repeat: no-repeat;
   background-image: url(../img/114_0132.jpg);
-  height: 600px;
+  height: 650px;
 }
 
 #parallax2 {
@@ -607,7 +607,7 @@ section.section {
     background-position: 50% 50%;
     background-repeat: no-repeat;
   background-image: url(../img/Corcoran-1.jpg);
-  height: 600px;
+  height: 650px;
 }
 
 #testimonials {
@@ -615,7 +615,7 @@ section.section {
     background-position: 50% 50%;
     background-repeat: no-repeat;
   background-image: url(../img/Weygandt-int-sun-porch-2-after.jpg);
-  height: 600px;
+  height: 650px;
 }
 
 #testimonials-3 {
@@ -623,7 +623,7 @@ section.section {
     background-position: 50% 50%;
     background-repeat: no-repeat;		
   background-image: url(../img/Trautman-1-after.jpg);
-  height: 600px;
+  height: 650px;
 }
 
 #testimonials-2 {
@@ -631,14 +631,14 @@ section.section {
     background-position: 50% 50%;
     background-repeat: no-repeat;
   background-image: url(../img/Metzger-1-after.jpg);
-  height: 600px;
+  height: 650px;
 }
 
 .roundimg{
     background-color:transparent;
-    width:100px;
-    height:100px;
-    border-radius: 50% / 25%;
+    width:150px;
+    height:150px;
+    border-radius: 50% ;
 	  
 	border: 5px solid #EAE5CC;
 }
@@ -1291,7 +1291,7 @@ section.featured.inner {
 
 /*id*/
 #header img {
-  height: 600px;
+  height: 650px;
 }
 
 #section-services {
