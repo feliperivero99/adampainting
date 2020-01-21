@@ -603,7 +603,10 @@ section.section {
 }
 
 #parallax2 {
-  background-image: url(../img/parallax/2.jpg);
+	background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  background-image: url(../img/Corcoran-1.jpg);
   height: 500px;
 }
 
