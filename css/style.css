@@ -638,8 +638,9 @@ section.section {
     background-color:transparent;
     width:100px;
     height:100px;
-        border-radius: 50%;
-		border: 5px solid #EAE5CC;
+    border-radius: 50% / 25%;
+	  
+	border: 5px solid #EAE5CC;
 }
 
 /*===========================
