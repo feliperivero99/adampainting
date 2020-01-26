@@ -46,7 +46,7 @@
             <span class="fa fa-bars color-white"></span>
           </button>
           <a class="navbar-brand" href="index.html" data-0="line-height:90px; width:300px;" data-300="line-height:50px; width:180px; margin-left:10px;">
-			<img src="img/logo.png" style="width:100%;  height:auto;">
+			<img  class="headerimg" src="img/logo.png" >
             </a>
         </div>
         <div class="navbar-collapse collapse">
@@ -92,12 +92,12 @@
                 </div>
               </div>
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
-                    <form class="form-inline">
+                 <form id ="formu1" class="form-inline">
                   <div class="form-group">
-                    <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required">MORE</button>
+                    <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required" onclick="move('formu1','exteriorpainting.html')">MORE</button>
                   </div>
                   <div class="form-group">
-                    <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">CONTACT</button>
+                    <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required" onclick="contact()">CONTACT</button>
                   </div>
                 </form>
               </div>
@@ -115,12 +115,12 @@
                 </div>
               </div>
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.6s">
-                    <form class="form-inline">
+                    <form id="formu2" class="form-inline">
                   <div class="form-group">
-                    <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required">MORE</button>
+                    <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required" onclick="move('formu2','interiorpainting.html')">MORE</button>
                   </div>
                   <div class="form-group">
-                    <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">CONTACT</button>
+                    <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required" onclick="contact2()">CONTACT</button>
                   </div>
                 </form>
               </div>
@@ -138,12 +138,12 @@
                 </div>
               </div>
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.6s">
-                    <form class="form-inline">
+                    <form id="formu3" class="form-inline">
                   <div class="form-group">
-                    <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required">MORE</button>
+                    <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required" onclick="move('formu3','decks.html')">MORE</button>
                   </div>
                   <div class="form-group">
-                    <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">CONTACT</button>
+                    <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required" onclick="contact3()">CONTACT</button>
                   </div>
                 </form>
               </div>
@@ -748,6 +748,25 @@
   <script src="js/wow.min.js"></script>
   <script>
     wow = new WOW({}).init();
+	
+	  function contact(){
+	document.getElementById("formu1").action ="contact.html";
+  }
+  
+  function contact2(){
+	document.getElementById("formu2").action ="contact.html";
+  }
+	
+function contact3(){
+	document.getElementById("formu3").action ="contact.html";
+  }	
+  
+  function move(a,b){
+	document.getElementById(a).action =b;
+  }	
+	
+	
+	
   </script>
   <script src="contactform/contactform.js"></script>
 

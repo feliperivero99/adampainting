@@ -2257,9 +2257,27 @@ Media queries
 .hiderow {
     display: none;
   }
+  
+.headerimg {
+    width: 100%;
+    height: auto !important;
+}
 
 @media only screen and (max-width: 600px) {
   .hiderow {
     display: block;
   }
+  
+  .headerimg {
+    width: 50%;
+    height: auto !important;
 }
+
+ section.section {
+    margin: 0;
+   height: 100% !important;
+  
+}
+
+
+
