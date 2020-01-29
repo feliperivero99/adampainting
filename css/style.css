@@ -606,7 +606,7 @@ section.section {
 	background-size: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-  background-image: url(../img/Corcoran-1.jpg);
+  background-image: url(../img/photos/114_0122.jpg);
   height: 650px;
 }
 
@@ -614,7 +614,7 @@ section.section {
 	background-size: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-  background-image: url(../img/Weygandt-int-sun-porch-2-after.jpg);
+  background-image: url(../img/photos/114_0108.jpg);
   height: 650px;
 }
 
@@ -2281,4 +2281,22 @@ Media queries
 
 }
 
+.buttonspecial{
+	
+	padding: 20px 60px;
+    font-size: 20px;
+    background: #3a906d;
+    color: white;
+    border-radius: 0;
+    text-transform: uppercase;
+	
+}
+
+.buttonspecial:hover{
+	
+	
+    background: white;
+    color: black;
+	
+}
 
