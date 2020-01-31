@@ -2283,7 +2283,7 @@ Media queries
     font-size: 14px;
     line-height: 1.8;
 	    background-color: #333;
-    color: rgba(255,255,255,0.25);
+    color: #eee;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 
