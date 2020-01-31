@@ -2263,6 +2263,30 @@ Media queries
     height: auto !important;
 }
 
+.floattoright{
+	float:right; 
+	width:50%; 
+	padding:20px;
+}
+
+.floattoleft{
+	float:left; 
+	width:50%
+}
+
+
+
+
+.copyrights {
+    padding: 30px 0 0 0;
+	padding-bottom:30px;
+    font-size: 14px;
+    line-height: 1.8;
+	    background-color: #333;
+    color: rgba(255,255,255,0.25);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
 @media only screen and (max-width: 600px) {
   .hiderow {
     display: block;
@@ -2275,8 +2299,19 @@ Media queries
 
  section.section {
     margin: 0;
-   height: 100% !important;
+      margin-top: 1em;
   
+}
+
+.floattoright{
+	float:right; 
+	width:100%; 
+	padding:20px;
+}
+
+.floattoleft{
+	float:left; 
+	width:100%
 }
 
 }
@@ -2298,5 +2333,14 @@ Media queries
     background: white;
     color: black;
 	
+}
+
+
+#testimonials-32 {
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/Trautman-1-after.jpg);
+    height: 650px;
 }
 
