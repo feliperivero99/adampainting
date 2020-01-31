@@ -1842,7 +1842,12 @@ function contact3(){
 	document.getElementById(a).action =b;
   }	
 	
-	
+	   $(window).scroll(function() {
+	console.log("a");
+        $(window).trigger('resize');
+        
+       
+    });
 	
   </script>
   <script src="contactform/contactform.js"></script>
