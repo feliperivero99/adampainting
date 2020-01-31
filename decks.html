@@ -658,8 +658,16 @@ function contact3(){
   }	
 	
 	$( document ).ready(function() {
-    $(window).trigger('resize');
+    
 });
+	
+	var div1=$("#section-works");
+  var lastScroll = 0;
+    $(div1).scroll(function(e){
+        $(window).trigger('resize');
+        }
+       } 
+    });
 	
 	
   </script>
