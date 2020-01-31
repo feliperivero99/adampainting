@@ -599,7 +599,7 @@ section.section {
     background-position: 50% 50%;
     background-repeat: no-repeat;
   background-image: url(../img/114_0132.jpg);
-  height: 650px;
+  min-height: 650px;
 }
 
 #parallax2 {
@@ -607,7 +607,7 @@ section.section {
     background-position: 50% 50%;
     background-repeat: no-repeat;
   background-image: url(../img/photos/114_0122.jpg);
-  height: 650px;
+  min-height: 650px;
 }
 
 #testimonials {
@@ -615,7 +615,7 @@ section.section {
     background-position: 50% 50%;
     background-repeat: no-repeat;
   background-image: url(../img/photos/114_0108.jpg);
-  height: 650px;
+  min-height: 650px;
 }
 
 #testimonials-3 {
@@ -623,7 +623,7 @@ section.section {
     background-position: 50% 50%;
     background-repeat: no-repeat;		
   background-image: url(../img/Trautman-1-after.jpg);
-  height: 650px;
+  min-height: 650px;
 }
 
 #testimonials-2 {
@@ -631,7 +631,7 @@ section.section {
     background-position: 50% 50%;
     background-repeat: no-repeat;
   background-image: url(../img/photos/Wetgandt-living-room-after.jpg);
-  height: 650px;
+ min-height: 650px;
 }
 
 .roundimg{
@@ -2341,6 +2341,6 @@ Media queries
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-image: url(../img/Trautman-1-after.jpg);
-    height: 650px;
+    min-height: 650px;
 }
 
